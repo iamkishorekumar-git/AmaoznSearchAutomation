@@ -6,7 +6,7 @@ public class Search
 {
     public static void main(String[] args) 
     {	
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\885726\\eclipse-workspace\\AmazonAutomation\\src\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\885726\\OneDrive - Cognizant\\Documents\\GitHub\\AmaoznSearchAutomation\\AmazonAutomation\\src\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
     	
         String baseUrl = "http:www.amazon.com";
